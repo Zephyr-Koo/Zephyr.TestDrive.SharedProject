@@ -2,6 +2,9 @@
 
 namespace Zephyr.TestDrive.Shared.Tests
 {
+    /// A raw attempt to write unit tests on codes in Shared Project.
+    /// As you might have already seen, this approach can grow
+    /// messy quickly for customized behaviours.
     [TestClass]
     public class HelloWorldTests : TestsBase
     {

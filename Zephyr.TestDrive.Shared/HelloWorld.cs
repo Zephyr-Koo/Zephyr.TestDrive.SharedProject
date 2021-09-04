@@ -20,7 +20,7 @@ namespace Zephyr.TestDrive.Shared
         /// <remarks>
         ///     This method returns message conditionally based on
         ///     compilation symbols (DefineConstants) defined
-        ///     in project file (.csproj).
+        ///     in each referenced project file (.csproj).
         /// </remarks>
         /// <returns>A hello world message in string.</returns>
         public static string GetMessage()

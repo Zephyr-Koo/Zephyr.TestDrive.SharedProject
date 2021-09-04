@@ -9,6 +9,7 @@ namespace Zephyr.TestDrive.Shared.Tests
         [TestInitialize]
         public void Setup()
         {
+            // Output current compilation symbol used for each test might be useful?
 #if Human
             Console.WriteLine("Executing test in Human context...");
 #elif Bot
