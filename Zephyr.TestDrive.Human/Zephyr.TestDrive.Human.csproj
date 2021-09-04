@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <DefineConstants>Human</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\Zephyr.TestDrive.Shared\Zephyr.TestDrive.Shared.projitems" Label="Shared" />
+
+</Project>
